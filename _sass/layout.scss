@@ -154,6 +154,18 @@ nav > ul li a:active {
 	filter: $drop-shadow;
 }
 
+@media only screen and (max-width: 768px) {
+	.appDetails {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.appIconShadow {
+		align-items: center;
+		justify-content: center;
+	}
+}
+
 .appIconLarge {
 	width: 120px;
 	height: 120px;
@@ -173,6 +185,7 @@ nav > ul li a:active {
 .appName {
 	color: $app-title-color;
 	font-weight: 400;
+	line-height: 4rem;
 }
 
 .appPrice {
