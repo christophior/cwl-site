@@ -16,15 +16,15 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Chris Villarreal                                
-your_link                                 : https://www.christophior.com                     
-your_city                                 : Austin, Texas                                
+your_name                                 : christophior
+your_link                                 : https://www.christophior.com
+your_city                                 : 
 email_address                             : cwl@christophior.com
-facebook_username                         :                                           
+facebook_username                         : 
 instagram_username                        : 
 twitter_username                          : christophior
 github_username                           : 
-youtube_username                          :
+youtube_username                          : 
 
 
 
@@ -49,11 +49,11 @@ device_color                              : white                               
 
 body_background_color                     : "ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#6d6d6d"
 
-app_title_color                           : "#d8d8d8"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#d8d8d8"
+app_title_color                           : "#808080"
+app_price_color                           : "#6d6d6d"
+app_description_color                     : "#6d6d6d"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"

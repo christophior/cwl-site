@@ -2,7 +2,7 @@
 $content-width: 1170px;
 
 // Fonts and sizes
-$font: 'Helvetica Neue', sans-serif;
+$font: sans-serif, 'Helvetica Neue';
 $primary-text-color: #000;
 
 html {
@@ -40,7 +40,7 @@ a:hover,
 a:visited,
 a:active {
 	color: $accent-color;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 // Shadows
