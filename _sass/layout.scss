@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 714px;
+	// height: 714px;
 	// background: 
 	// 	linear-gradient(
 	// 	rgba($image-overlay-color, $image-overlay-transparency), 
@@ -8,16 +8,17 @@
 		
 	// 	url($header-image);
 
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
-	border-radius: 0px 0px 40px 40px;
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: top;
+	// border-radius: 0px 0px 40px 40px;
+	background-color: #f7f7f7;
 
 }
 
 .headerBackground {
 	// height: 115px;
-	background-color: rgba($header-color, $header-transparency);
+	// background-color: rgba($header-color, $header-transparency);
 }
 
 .container {					// Set up the container for the site content
@@ -184,7 +185,7 @@ nav > ul li a:active {
 
 .appName {
 	color: $app-title-color;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 4rem;
 	letter-spacing: 1px;
 }
@@ -500,6 +501,14 @@ footer {
 .footerIcons {
 	padding-bottom: 70px;
 	display: flex;
+}
+
+.twitter:hover {
+	color: #1fa9de;
+}
+
+.email:hover {
+	color: #ad3333;
 }
 
 @media only screen and (max-width: 992px) {
